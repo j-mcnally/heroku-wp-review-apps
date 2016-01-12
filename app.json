@@ -1,0 +1,31 @@
+{
+  "name": "review-demo",
+  "scripts": {
+    "postdeploy": "bash wp_clone.sh"
+  },
+  "env": {
+    "STAGING_DB_URL": {
+      "required": true
+    }
+  },
+  "addons": [
+    "jawsdb:kitefin"
+  ],
+  "labs": [
+    "runtime-dyno-metadata"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    },
+    {
+      "url": "https://github.com/j-mcnally/heroku-buildpack-mysql"
+    },
+    {
+      "url": "https://github.com/j-mcnally/heroku-buildpack-wp-cli.git"
+    },
+    {
+      "url": "https://github.com/"
+    }
+  ]
+}
