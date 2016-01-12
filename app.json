@@ -22,10 +22,10 @@
       "url": "https://github.com/j-mcnally/heroku-buildpack-mysql"
     },
     {
-      "url": "https://github.com/j-mcnally/heroku-buildpack-wp-cli.git"
+      "url": "https://github.com/j-mcnally/heroku-buildpack-wp-cli"
     },
     {
-      "url": "https://github.com/"
+      "url": "https://github.com/j-mcnally/heroku-buildpack-wp-dbclone"
     }
   ]
 }
